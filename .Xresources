@@ -1,0 +1,141 @@
+XTerm*faceName: Monospace
+XTerm*faceSize: 12
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Darcula AI Generated color scheme for XTerm
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!XTerm*background: #2B2B2B
+!XTerm*foreground: #A9B7C6
+!XTerm*cursorColor: #A9B7C6
+!XTerm*pointerColorBackground: #2B2B2B
+!XTerm*pointerColorForeground: #A9B7C6
+!
+!XTerm*color0:  #2B2B2B
+!XTerm*color1:  #FF6B68
+!XTerm*color2:  #A8C023
+!XTerm*color3:  #FFD700
+!XTerm*color4:  #6897BB
+!XTerm*color5:  #D27BFF
+!XTerm*color6:  #00CED1
+!XTerm*color7:  #A9B7C6
+!XTerm*color8:  #3C3F41
+!XTerm*color9:  #FF6B68
+!XTerm*color10: #A8C023
+!XTerm*color11: #FFD700
+!XTerm*color12: #6897BB
+!XTerm*color13: #D27BFF
+!XTerm*color14: #00CED1
+!XTerm*color15: #FFFFFF
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Darcula color scheme for XTerm
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+XTerm*background:  #2b2b2b
+XTerm*foreground:  #a9b7c6
+XTerm*cursorColor: #a9b7c6
+XTerm*pointerColorBackground: #2b2b2b
+XTerm*pointerColorForeground: #a9b7c6
+
+XTerm*color0:  #2b2b2b
+XTerm*color8:  #505354
+XTerm*color1:  #d25252
+XTerm*color9:  #f07178
+XTerm*color2:  #a5c261
+XTerm*color10: #b8cc52
+XTerm*color3:  #ffc66d
+XTerm*color11: #ffe484
+XTerm*color4:  #6c99bb
+XTerm*color12: #7aa6da
+XTerm*color5:  #b6b3eb
+XTerm*color13: #c397d8
+XTerm*color6:  #519f50
+XTerm*color14: #70c0b1
+XTerm*color7:  #a9b7c6
+XTerm*color15: #ffffff
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Solarized Dark for XTerm
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!XTerm*background:  #002b36
+!XTerm*foreground:  #839496
+!XTerm*cursorColor: #93a1a1
+!XTerm*pointerColorBackground: #002b36
+!XTerm*pointerColorForeground: #93a1a1
+!
+!XTerm*color0:  #073642
+!XTerm*color1:  #dc322f
+!XTerm*color2:  #859900
+!XTerm*color3:  #b58900
+!XTerm*color4:  #268bd2
+!XTerm*color5:  #d33682
+!XTerm*color6:  #2aa198
+!XTerm*color7:  #eee8d5
+!XTerm*color8:  #002b36
+!XTerm*color9:  #cb4b16
+!XTerm*color10: #586e75
+!XTerm*color11: #657b83
+!XTerm*color12: #839496
+!XTerm*color13: #6c71c4
+!XTerm*color14: #93a1a1
+!XTerm*color15: #fdf6e3
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Solarized Light for XTerm
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!XTerm*background:  #fdf6e3
+!XTerm*foreground:  #657b83
+!XTerm*cursorColor: #586e75
+!XTerm*pointerColorBackground: #fdf6e3
+!XTerm*pointerColorForeground: #586e75
+!
+!XTerm*color0:  #073642
+!XTerm*color1:  #dc322f
+!XTerm*color2:  #859900
+!XTerm*color3:  #b58900
+!XTerm*color4:  #268bd2
+!XTerm*color5:  #d33682
+!XTerm*color6:  #2aa198
+!XTerm*color7:  #eee8d5
+!XTerm*color8:  #002b36
+!XTerm*color9:  #cb4b16
+!XTerm*color10: #586e75
+!XTerm*color11: #657b83
+!XTerm*color12: #839496
+!XTerm*color13: #6c71c4
+!XTerm*color14: #93a1a1
+!XTerm*color15: #fdf6e3
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Dracula for XTerm
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!XTerm*background:  #282a36
+!XTerm*foreground:  #f8f8f2
+!XTerm*cursorColor: #f8f8f2
+!XTerm*pointerColorBackground: #282a36
+!XTerm*pointerColorForeground: #f8f8f2
+!
+!XTerm*color0:  #21222c
+!XTerm*color1:  #ff5555
+!XTerm*color2:  #50fa7b
+!XTerm*color3:  #f1fa8c
+!XTerm*color4:  #bd93f9
+!XTerm*color5:  #ff79c6
+!XTerm*color6:  #8be9fd
+!XTerm*color7:  #f8f8f2
+!XTerm*color8:  #6272a4
+!XTerm*color9:  #ff6e6e
+!XTerm*color10: #69ff94
+!XTerm*color11: #ffffa5
+!XTerm*color12: #d6acff
+!XTerm*color13: #ff92df
+!XTerm*color14: #a4ffff
+!XTerm*color15: #ffffff
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
