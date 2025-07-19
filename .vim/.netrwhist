@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/users/palayar/.vim'
-let g:netrw_dirhist_2='/home/data/simulation/SG701cana0/users/palayar/palayar_SG701_A0_2/chip/tests/verification/audio_dmic02dac_i2s1_loopback_rand_bt/results'
-let g:netrw_dirhist_3='/home/data/simulation/SG701cana0/users/palayar/palayar_SG701_A0_2/chip/tests/verification/audio_rand_dlch_interrupt/results'
-let g:netrw_dirhist_4='/home/data/simulation/SG701cana0/users/palayar/palayar_SG701_A0_2/chip/tests/verification/audio_adc2dac_i2s1_loopback_rand_bt/results'
-let g:netrw_dirhist_5='/home/data/simulation/SG701cana0/users/palayar/palayar_SG701_A0_2/chip/tests/verification/audio_rand_dlch_interrupt/my_regression'
-let g:netrw_dirhist_6='/home/data/simulation/SG701cana0/users/palayar/palayar_SG701_A0_2/chip/tests/verification/audio_adc2dac_i2s1_loopback_rand_bt/my_regression'
