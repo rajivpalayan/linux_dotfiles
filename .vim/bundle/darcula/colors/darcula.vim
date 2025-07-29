@@ -12,6 +12,7 @@ if exists("syntax_on")
 endif
 
 let g:colors_name='darcula'
+set cursorline
 
 let s:p={
       \ 'null': ['NONE', 'NONE'],
@@ -22,8 +23,8 @@ let s:p={
       \ 'identifierUnderCaretWrite': ['#40332B', 58],
       \ 'gutter': ['#313335', 236],
       \ 'selection': ['#214283', 24],
-      \ 'cursorLine': ['#323232', 236],
-      \ 'cursorLineNr': ['#A4A3A3', 248],
+      \ 'cursorLine': ['#464646', 239],
+      \ 'cursorLineNr': ['#ADACAC', 250],
       \ 'errorMsg': ['#CC666E', 174],
       \ 'error': ['#BC3F3C', 131],
       \ 'warning': ['#A9B7C6', 145],
@@ -155,7 +156,7 @@ endfunction
 call s:Hi('Normal', s:p.fg, s:p.bg)
 call s:Hi('ColorColumn', s:p.null, s:p.wrapGuide)
 call s:Hi('Conceal', s:p.muted, s:p.bg)
-call s:Hi('Cursor', s:p.cursor)
+call s:Hi('Cursor', s:p.cursor,['#7F4C4C', 138])
 hi! link lCursor Cursor
 hi! link CursorIM Cursor
 hi! link CursorColumn CursorLine
