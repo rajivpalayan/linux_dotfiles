@@ -54,16 +54,29 @@ if &t_Co > 2 || has("gui_running")
   map <C-n> :NERDTreeToggle<CR>
   set hidden
   set nu
-  nnoremap <S-F9>  :bprevious<CR>
-  nnoremap <S-F10> :bnext<CR>
-  nnoremap <F11>   :e 
+  "Move between Buffers
+  nnoremap <F9>    :bprevious<CR>
+  nnoremap <F10>   :bnext<CR>
+  nnoremap <F5>    :buffers<CR>:b
+  "Move between Tags
+  nnoremap <S-F9>  :tprevious<CR>
+  nnoremap <S-F10> :tnext<CR>
+  nnoremap <S-F5>  :tags
+  "Add and delete Buffers
   nnoremap <S-F11> :badd
   nnoremap <F12>   :bdelete %<CR>
   nnoremap <S-F12> :bdelete
-  nnoremap <F4> :e<CR>
-  nnoremap <F5> :buffers<CR>:b
-  nnoremap <F2> *``
-  nnoremap <F3> :set titlestring=
+  nnoremap <F11>   :e 
+  "Refreshing Buffers
+  nnoremap <F4>    :e<CR>
+  "Searching
+  nnoremap <F2>    *``
+  "Title
+  nnoremap <S-F2>  :set titlestring=
+  "VIMGREP
+  nnoremap <F3>    :cn<CR>
+  nnoremap <S-F3>  :cp<CR>
+  nnoremap <S-F4>  :cexpr []<CR>:let curr_buf=bufnr('%') \| bufdo vimgrepadd /PATTERN/j % \| execute 'buffer' curr_buf
   set hlsearch
   set title
   set visualbell
@@ -132,6 +145,9 @@ if !exists(":DiffOrig")
 		  \ | wincmd p | diffthis
 endif
 
+"Do not automatically open folds when searching
+set foldopen-=search
+
 " virtual tabstops using spaces
 set shiftwidth=2
 set softtabstop=2
@@ -148,7 +164,7 @@ function TabToggle()
     set expandtab
   endif
 endfunction
-nmap <F9> mz:execute TabToggle()<CR>'z
+nmap <S-F9> mz:execute TabToggle()<CR>'z
 
 
 function! Incr()

@@ -2,15 +2,23 @@
 #init commands
 #scl enable devtoolset-6 git19 perl516 python27 tcsh
 
-# User Aliases
-alias v           'xterm -e vim -T xterm-256color\!*'
-alias g           'gvim \!*'
-alias p           'pwd'
-alias c           'clear'
-alias ..          'cd ..'
-alias .           'pwd'
-#Git
-alias gd          'git difftool --no-prompt -t tkdiff \!*'
-alias gco         'git checkout -- \!*'
-alias gst         'git status -suno'
-alias gr          'egrep --color=auto'
+alias l             'ls -al'
+alias la            'ls -altr'
+alias lsm           'ls | more'
+alias llm           'll | more'
+alias dir           'ls -alg'
+alias c             'clear'
+alias ..            'cd ..'
+alias p             'pwd'
+alias pu            pushd
+alias po            popd
+alias dv            'dirs -v'
+alias h             'history'
+alias g             'gvim'
+alias v             'xterm -e vim -T xterm-256color \!* &'
+alias gd            'git difftool --no-prompt -t kdiff3 \!*'
+alias gco           'git checkout -- \!*'
+alias gst           'git status -suno'
+alias vault         'cp \!:1 \!:1.bak ; git checkout -- \!:1'
+alias cgrep         'grep --color=auto'
+alias gr            'egrep -sr --color=auto'
