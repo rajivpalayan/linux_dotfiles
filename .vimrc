@@ -186,8 +186,8 @@ function! Decr()
   normal `<
 endfunction
 vnoremap <C-x> :call Decr()<CR>
-map  :w!<CR>
-map  :source ~/.vimrc<CR>
+"map  :w!<CR>
+"map  :source ~/.vimrc<CR>
 nmap <C-Q> :q<CR>
 
 set tags=./tags;,tags;

@@ -1,0 +1,109 @@
+# For documentation, see https://www.sumatrapdfreader.org/settings/settings3-6.html
+
+CheckForUpdates = false
+CustomScreenDPI = 0
+DefaultDisplayMode = automatic
+DefaultZoom = fit page
+EnableTeXEnhancements = false
+EscToExit = false
+FullPathInTitle = false
+LazyLoading = true
+MainWindowBackground = #909090
+NoHomeTab = false
+HomePageSortByFrequentlyRead = false
+ReloadModifiedDocuments = true
+RememberOpenedFiles = true
+RememberStatePerDocument = true
+RestoreSession = true
+ReuseInstance = false
+ShowMenubar = true
+ShowToolbar = true
+ShowFavorites = false
+ShowToc = true
+ShowLinks = false
+ShowStartPage = true
+SidebarDx = 438
+ScrollbarInSinglePage = false
+SmoothScroll = false
+FastScrollOverScrollbar = false
+TabWidth = 300
+Theme = Light
+TocDy = 0
+ToolbarSize = 18
+TreeFontName = automatic
+TreeFontSize = 0
+UIFontSize = 0
+DisableAntiAlias = false
+UseSysColors = false
+UseTabs = true
+ZoomLevels = 8.33 12.5 18 25 33.33 50 66.67 75 100 125 150 200 300 400 600 800 1000 1200 1600 2000 2400 3200 4800 6400
+ZoomIncrement = 0
+
+FixedPageUI [
+	TextColor = #839496
+	BackgroundColor = #002b36
+	SelectionColor = #b58900
+	WindowMargin = 2 4 2 4
+	PageSpacing = 4 4
+	InvertColors = false
+	HideScrollbars = false
+]
+
+EBookUI [
+	FontSize = 0
+	LayoutDx = 0
+	LayoutDy = 0
+	IgnoreDocumentCSS = false
+]
+
+ComicBookUI [
+	WindowMargin = 0 0 0 0
+	PageSpacing = 4 4
+	CbxMangaMode = false
+]
+
+ChmUI [
+	UseFixedPageUI = false
+]
+
+Annotations [
+	HighlightColor = #859900
+	UnderlineColor = #859900
+	SquigglyColor = #859900
+	StrikeOutColor = #859900
+	FreeTextColor = 
+	FreeTextBackgroundColor = 
+	FreeTextOpacity = 100
+	FreeTextSize = 12
+	FreeTextBorderWidth = 1
+	TextIconColor = 
+	TextIconType = 
+	DefaultAuthor = 
+]
+
+ExternalViewers [
+]
+
+ForwardSearch [
+	HighlightOffset = 0
+	HighlightWidth = 15
+	HighlightColor = #d33682
+	HighlightPermanent = false
+]
+
+PrinterDefaults [
+	PrintScale = shrink
+]
+
+SelectionHandlers [
+]
+
+Shortcuts [
+]
+
+Themes [
+]
+
+# You're not expected to change those manually
+# Settings below are not recognized by the current version
+TreeFontWeightOffset = 0
