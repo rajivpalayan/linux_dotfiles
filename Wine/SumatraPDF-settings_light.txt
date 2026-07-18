@@ -40,8 +40,8 @@ ZoomLevels =
 ZoomIncrement = 0
 
 FixedPageUI [
-	TextColor = #222222
-	BackgroundColor = #B8B8B8
+	TextColor = #1C1C1C
+	BackgroundColor = #DFDBD0
 	SelectionColor = #6688AA
 	WindowMargin = 8 8 8 8
 	PageSpacing = 8 8
