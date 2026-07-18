@@ -8,7 +8,7 @@ EnableTeXEnhancements = false
 EscToExit = false
 FullPathInTitle = false
 LazyLoading = true
-MainWindowBackground = #909090
+MainWindowBackground = #808080
 NoHomeTab = false
 HomePageSortByFrequentlyRead = false
 ReloadModifiedDocuments = true
@@ -24,7 +24,7 @@ ShowLinks = false
 ShowStartPage = true
 SidebarDx = 335
 ScrollbarInSinglePage = false
-SmoothScroll = false
+SmoothScroll = true
 FastScrollOverScrollbar = false
 TabWidth = 300
 Theme = Light
@@ -41,10 +41,10 @@ ZoomIncrement = 0
 
 FixedPageUI [
 	TextColor = #222222
-	BackgroundColor = #C0C0C0
+	BackgroundColor = #B8B8B8
 	SelectionColor = #6688AA
-	WindowMargin = 2 4 2 4
-	PageSpacing = 4 4
+	WindowMargin = 8 8 8 8
+	PageSpacing = 8 8
 	InvertColors = false
 	HideScrollbars = false
 ]
@@ -67,7 +67,7 @@ ChmUI [
 ]
 
 Annotations [
-	HighlightColor = #88AA66
+	HighlightColor = #99BB66
 	UnderlineColor = #3366AA
 	SquigglyColor = #CC5555
 	StrikeOutColor = #AA4444
@@ -106,4 +106,3 @@ Themes [
 
 # You're not expected to change those manually
 # Settings below are not recognized by the current version
-TreeFontWeightOffset = 0
